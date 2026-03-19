@@ -10,5 +10,14 @@ font-family: Tahoma, Verdana, Arial, sans-serif; }
 </head>
 <body>
 <h1>Hello DevOps world!</h1>
+<p id="time"></p>
+<script>
+function updateTime() {
+    const now = new Date();
+    document.getElementById("time").innerText = now.toLocaleTimeString();
+}
+updateTime();
+setInterval(updateTime, 1000);
+</script>
 </body>
 </html>
