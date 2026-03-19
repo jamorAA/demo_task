@@ -742,3 +742,5 @@
 2026/03/19 21:51:04 [notice] 1#1: start worker processes
 2026/03/19 21:51:04 [notice] 1#1: start worker process 21
 2026/03/19 21:51:04 [notice] 1#1: start worker process 22
+2026/03/19 22:17:39 [error] 21#21: *8 open() "/usr/share/nginx/html/autodiscover/autodiscover.json" failed (2: No such file or directory), client: 20.171.9.56, server: 158.160.236.222, request: "GET /autodiscover/autodiscover.json?@zdi/Powershell HTTP/1.1", host: "158.160.236.222"
+2026/03/19 22:27:57 [crit] 21#21: *18 SSL_do_handshake() failed (SSL: error:0A0004E7:SSL routines::reason(1255):SSL alert number 255) while SSL handshaking, client: 178.176.87.120, server: 0.0.0.0:443

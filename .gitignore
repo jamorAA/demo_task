@@ -11,3 +11,4 @@
 .viminfo
 /nginx/ssl/
 .selected_editor
+.docker/
